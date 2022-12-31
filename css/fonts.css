@@ -1,0 +1,38 @@
+/* Source Serif Pro is the font specified by brand guidelines for ArboProducts
+  -Will use this fonts.css file to load font faces for use throughout the site
+  -Need all versions of source serif for information hierarchy, Black, ExtraLight, It, Light, and Regular*/
+
+@font-face {
+  font-family: SourceSerifPro-Black;
+  src: url(../assets/fonts/SourceSerifPro-Black.otf);
+}
+
+@font-face {
+  font-family: SourceSerifPro-BlackIt;
+  src: url(../assets/fonts/SourceSerifPro-BlackIt.otf);
+}
+
+@font-face {
+  font-family: SourceSerifPro-ExtraLight;
+  src: url(../assets/fonts/SourceSerifPro-ExtraLight.otf);
+}
+
+@font-face {
+  font-family: SourceSerifPro-It;
+  src: url(../assets/fonts/SourceSerifPro-It.otf);
+}
+
+@font-face {
+  font-family: SourceSerifPro-Light;
+  src: url(../assets/fonts/SourceSerifPro-Light.otf);
+}
+
+@font-face {
+  font-family: SourceSerifPro-LightIt;
+  src: url(../assets/fonts/SourceSerifPro-LightIt.otf);
+}
+
+@font-face {
+  font-family: SourceSerifPro-Regular;
+  src: url(../assets/fonts/SourceSerifPro-Regular.otf);
+}
