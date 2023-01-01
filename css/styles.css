@@ -32,13 +32,22 @@ p {
   font-family: SourceSerifPro-Regular, 'Times New Roman', Times, serif;
 }
 
+h1 {
+  font-family: SourceSerifPro-Black;
+}
+
 .arbo-green {
   color: #00A144;
+}
+
+.arbo-green-bg {
+  background-color: #00A144;
 }
 
 .btn-primary {
   background-color:#00A144;
   color: white;
+  border: none;
 }
 
 .btn-primary:hover{
@@ -56,6 +65,15 @@ p {
 
 .jumbotron {
   border-top:#00A144 5px solid;
+  border-bottom: #00A144 5px solid;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.icon-large {
+  width: 100%;
+}
+ .card-title {
+  color:#00A144;
+  font-family: SourceSerifPro-BlackIt;
+ }
