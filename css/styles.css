@@ -73,7 +73,13 @@ h1 {
 .icon-large {
   width: 100%;
 }
- .card-title {
+
+.card-title {
   color:#00A144;
   font-family: SourceSerifPro-BlackIt;
- }
+}
+
+.card:hover {
+  box-shadow: 0 0 5px #000502;
+  background-color: #e9f8ef;
+}
