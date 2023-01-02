@@ -64,8 +64,8 @@ h1 {
 }
 
 .jumbotron {
-  border-top:#00A144 5px solid;
-  border-bottom: #00A144 5px solid;
+  border-top:#00A144 10px solid;
+  border-bottom: #00A144 10px solid;
   background-repeat: no-repeat;
   background-size: cover;
 }
