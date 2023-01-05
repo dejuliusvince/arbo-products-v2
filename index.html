@@ -17,10 +17,10 @@
     <img class="col-3" src="./assets/images/arboproducts_logo_green.svg" alt="Arbo Logo">
     <nav class="nav col-9 justify-content-end align-content-center p-4">
       <a class="nav-link" aria-current="page" href="#">Home</a>
-      <a class="nav-link" href="#">About Us</a>
-      <a class="nav-link" href="#">Our Capabilities</a>
-      <a class="nav-link" href="#">Products</a>
-      <a class="nav-link" href="#">Contact</a>
+      <a class="nav-link" href="#aboutUs">About Us</a>
+      <a class="nav-link" href="#ourCapabilities">Our Capabilities</a>
+      <a class="nav-link" href="#whyChooseUs">Products</a>
+      <a class="nav-link" href="#footer">Contact</a>
     </nav>
   </div>
 
@@ -38,7 +38,7 @@
   </div>
 
 
-  <div class="row p-3">
+  <div id="aboutUs"class="row p-3">
     <div class="col-6">
       <img class="icon-large" src="./assets/images/arbo_icon.png" alt="Arbo Products icon, large">
     </div>
@@ -57,7 +57,7 @@
     </div>
   </div>
 
-  <div class="row arbo-green-bg height-100px text-center">
+  <div id="ourCapabilities" class="row arbo-green-bg height-100px text-center">
     <h1 class="text-white pt-3">Our Capabilities</h1>
   </div>
 
@@ -114,45 +114,86 @@
 
   </div>
 
-  <div class="row height-100px text-center">
+  <div id="whyChooseUs"class="row height-100px text-center">
     <h1 class="arbo-green p-2">Why Choose Us?</h1>
   </div>
 
 
-<div class="container pl-3 pr-3 arbo-green">
-  <div class="row height-400px">
+  <div class="container pl-3 pr-3 arbo-green">
+    <div class="row height-400px">
 
-    <div class="col-md-4 text-center">
-      <figure>
-        <img src="./assets/images/application_process_icon.png" alt="application process icon" height="100">
-      </figure>
-      <h4>Superior Application Process</h4>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam veniam porro unde, neque velit laborum beatae
-        labore hic dicta est minima accusantium minus a amet fugit modi sunt magni eius?</p>
+      <div class="col-md-4 text-center">
+        <figure>
+          <img src="./assets/images/application_process_icon.png" alt="application process icon" height="100">
+        </figure>
+        <h4>Superior Application Process</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam veniam porro unde, neque velit laborum beatae
+          labore hic dicta est minima accusantium minus a amet fugit modi sunt magni eius?</p>
+      </div>
+
+      <div class="col-md-4 text-center">
+        <figure>
+          <img src="./assets/images/product_quality_icon.png" alt="product quality icon" height="100">
+        </figure>
+        <h4>Measurable Product Quality</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam veniam porro unde, neque velit laborum beatae
+          labore hic dicta est minima accusantium minus a amet fugit modi sunt magni eius?</p>
+      </div>
+
+      <div class="col-md-4 text-center">
+        <figure>
+          <img src="./assets/images/corporate_standards_icon.png" alt="product quality icon" height="100">
+        </figure>
+        <h4>Corporate Standards</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam veniam porro unde, neque velit laborum beatae
+          labore hic dicta est minima accusantium minus a amet fugit modi sunt magni eius?</p>
+      </div>
     </div>
+  </div>
 
-    <div class="col-md-4 text-center">
-      <figure>
-        <img src="./assets/images/product_quality_icon.png" alt="product quality icon" height="100">
-      </figure>
-      <h4>Measurable Product Quality</h4>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam veniam porro unde, neque velit laborum beatae
-        labore hic dicta est minima accusantium minus a amet fugit modi sunt magni eius?</p>
-    </div>
-
-    <div class="col-md-4 text-center">
-      <figure>
-        <img src="./assets/images/corporate_standards_icon.png" alt="product quality icon" height="100">
-      </figure>
-      <h4>Corporate Standards</h4>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam veniam porro unde, neque velit laborum beatae
-        labore hic dicta est minima accusantium minus a amet fugit modi sunt magni eius?</p>
+  <div class="container-fluid d-flex justify-content-center mb-3">
+    <div class="col-md-7">
+      <div>
+        <h1 class="arbo-green text-center">Video Demonstration</h1>
+        <p class="arbo-green text-center">The video below shows the process for applying our Film Transferable Hard Coating</p>
+      </div>
+      <div class="ratio ratio-16x9">
+        <iframe src="https://www.youtube.com/embed/Iz1YU1OcfPc" frameborder="0" allowfullscreen></iframe>
+      </div>
     </div>
 
   </div>
-</div>
 
-  <script src="/js/scripts.js"></script>
+  <div id="footer" class="row bg-dark d-flex justify-content-center text-light p-3 align-items-center">
+
+    <div class="col-2">
+      <img src="./assets/images/arboproducts_logo_white.svg" alt="Arbo Logo">
+    </div>
+
+
+    <div class="col-2 text-center pt-2">
+      <h6>Phone</h6>
+      <p>(440)-821-7251</p>
+    </div>
+    <div class="col-2 text-center pt-2">
+      <h6>Email</h6>
+      <p>ara@arboproducts.com</p>
+    </div>
+    <div class="col-2 text-center pt-2">
+      <h6>Location</h6>
+      <p>108 Lorem ipsum dolor</p>
+    </div>
+
+  </div>
+  <div class="row text-center p-2 bg-dark text-light d-flex align-items-center">
+    <p>2023 Copyright - arboproducts | All Rights Reserved</p>
+  </div>
+
+
+
+
+
+  <script src="./js/scripts.js"></script>
 </body>
 
 </html>
