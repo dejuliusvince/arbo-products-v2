@@ -13,32 +13,109 @@
 </head>
 
 <body>
-  <div class="row">
-    <img class="col-3" src="./assets/images/arboproducts_logo_green.svg" alt="Arbo Logo">
-    <nav class="nav col-9 justify-content-end align-content-center p-4">
-      <a class="nav-link" aria-current="page" href="#">Home</a>
-      <a class="nav-link" href="#aboutUs">About Us</a>
-      <a class="nav-link" href="#ourCapabilities">Our Capabilities</a>
-      <a class="nav-link" href="#whyChooseUs">Products</a>
-      <a class="nav-link" href="#footer">Contact</a>
-    </nav>
+  <div class="row justify-content-center">
+    <div class="col-4">
+      <img src="./assets/images/arboproducts_logo_green.svg" alt="Arbo Logo" height="125px">
+    </div>
+
+    <div class="col-8 p-0">
+      <!--
+      <img src="./assets/images/Arbo_email_icon.png" alt="email icon green" height="20px" width="24px">
+      <p>ara@arboproducts.com</p>
+      <img src="./assets/images/arbo_phone_icon.png" alt="telephone icon green" height="20px" width="24px">
+      <p class="pl-2">(440)-821-7251</p>
+      -->
+
+      <div class="row pt-1">
+
+        <span class="d-flex contact-row align-items-center">
+          <div class="col-4">
+            <span class="d-flex">
+              <img class="m-2" src="./assets/images/Arbo_email_icon.png" alt="email icon green" height="35px"
+                width="40px">
+              <p class="m-0 arbo-green">EMAIL US <br>ara@arboproducts.com</p>
+            </span>
+          </div>
+          <div class="col-4">
+            <span class="d-flex">
+              <img class="m-2" src="./assets/images/arbo_phone_icon.png" alt="telephone icon green" height="35px"
+                width="40px">
+              <p class="m-0 arbo-green">CALL US <br>(440)-821-7251</p>
+            </span>
+          </div>
+        </span>
+       
+        <nav class="nav p-2">
+          <a class="nav-link" aria-current="page" href="#">Home</a>
+          <a class="nav-link" href="#aboutUs">About Us</a>
+          <a class="nav-link" href="#ourServices">Our Capabilities</a>
+          <a class="nav-link" href="#whyChooseUs">Products</a>
+          <a class="nav-link" href="#footer">Contact</a>
+        </nav>
+  
+        
+      </div>
+    </div>
   </div>
 
-  <div class="p-5 mb-4 bg-light rounded-3 jumbotron"
+  <!--
+<div class="p-5 mb-4 bg-light rounded-3 jumbotron"
     style="background-image: url(./assets/images/grey_header_dropper.jpeg); width: fit-content; height: 500px;">
     <div class="mask" style="background-color: rgba(0, 0, 0, 0.3); height: 90%;">
       <div class="container-fluid py-5">
         <h1 class="display-5 fw-bold text-white">Custom Chemical Solutions</h1>
-        <p class="col-md-8 fs-4 text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut, incidunt
+        <p class="col-md-6 fs-4 text-white">
+
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut, incidunt
           porro numquam, quae laboriosam ratione, minima at ab nisi tempore asperiores! Nihil ratione necessitatibus
           nobis assumenda labore deserunt soluta veniam.</p>
         <button class="btn btn-primary btn-lg" type="button">Get Started</button>
       </div>
     </div>
   </div>
+-->
 
+  <div class="slide-container">
+    <div class="slider">
 
-  <div id="aboutUs"class="row p-3">
+      <!-- slide 1 -->
+      <div class="slide">
+        <img class="slide-bg" src="./assets/images/film_coating.jpeg" alt="film transfer hard coating slide" />
+      </div>
+
+      <!-- slide 2 -->
+      <div class="slide">
+        <img class="slide-bg" src="./assets/images/grey_header_dropper.jpeg" alt="dropper slide" />
+      </div>
+
+      <!-- slide 3 -->
+      <div class="slide">
+        <img class="slide-bg" src="./assets/images/lamination.jpeg" alt="lamination process slide" />
+      </div>
+
+      <!-- slide 4 -->
+      <div class="slide">
+        <img class="slide-bg" src="./assets/images/liquid_coating.jpeg" alt="liquid coating slide" />
+      </div>
+
+      <!-- Hexagon Text box element on each slide -->
+        <span class="slide-hexagon">
+          <img src="./assets/images/hexagon_bg_green.png" alt="green hexagon text box" height="350px">
+          <img  class="hexagon-icon" src="./assets/images/arbo_icon_white.png" alt="white arbo icon small" height="75px">
+          <h2 class="hexagon-header text-center">Film Transfer<br> Hard Coating</h2>
+        </span>
+      <!-- Control buttons -->
+      <button class="slider-btn btn-next text-white">
+        <p>></p>
+      </button>
+      <button class="slider-btn btn-prev text-white">
+        <p>
+          < </p>
+      </button>
+    </div>
+  </div>
+
+  <div id="aboutUs" class="row p-3">
     <div class="col-6">
       <img class="icon-large" src="./assets/images/arbo_icon.png" alt="Arbo Products icon, large">
     </div>
@@ -57,11 +134,11 @@
     </div>
   </div>
 
-  <div id="ourCapabilities" class="row arbo-green-bg height-100px text-center">
-    <h1 class="text-white pt-3">Our Capabilities</h1>
+  <div id="ourServices" class="row bg-light height-100px text-center">
+    <h1 class="pt-3">Our Services</h1>
   </div>
 
-  <div class="row arbo-green-bg height-400px p-4">
+  <div class="row bg-light height-400px p-4">
 
     <div class="col-sm-3">
       <div class="card text-center p-1 h-100">
@@ -114,7 +191,7 @@
 
   </div>
 
-  <div id="whyChooseUs"class="row height-100px text-center">
+  <div id="whyChooseUs" class="row height-100px text-center">
     <h1 class="arbo-green p-2">Why Choose Us?</h1>
   </div>
 
@@ -155,7 +232,8 @@
     <div class="col-md-7">
       <div>
         <h1 class="arbo-green text-center">Video Demonstration</h1>
-        <p class="arbo-green text-center">The video below shows the process for applying our Film Transferable Hard Coating</p>
+        <p class="arbo-green text-center">The video below shows the process for applying our Film Transferable Hard
+          Coating</p>
       </div>
       <div class="ratio ratio-16x9">
         <iframe src="https://www.youtube.com/embed/Iz1YU1OcfPc" frameborder="0" allowfullscreen></iframe>
