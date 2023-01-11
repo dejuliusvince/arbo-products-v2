@@ -60,8 +60,26 @@ h6 {
 }
 
 .contact-row{ 
-  justify-content: center;
+  justify-content: space-around;
   margin: 0;
+}
+
+.nav {
+  justify-content: space-between;
+}
+
+.nav-link {
+  color: #00A144;
+  font-size: larger;
+}
+
+.nav-link:hover {
+  color: #02682c;
+}
+
+.nav-link:active{
+  color: white;
+  background-color: #00A144;
 }
 
 /*begin styling for slider elements*/
@@ -102,15 +120,24 @@ h6 {
 
 .hexagon-icon {
   position: absolute;
-  right: 45%;
+  right: 40%;
+  bottom: 90px;
 }
 
 .hexagon-header {
   color: white;
   font-weight: bold;
   position: absolute;
-  bottom: 25px;
+  bottom: 10%;
   left: 27%;
+}
+
+.hexagon-text-body {
+  position: absolute;
+  text-align: center;
+  color: white;
+  top: 75%;
+  left: 15%
 }
 
 .slider-btn{
@@ -169,24 +196,6 @@ h6 {
 
 .btn-primary:hover{
   background-color: #02682c;
-}
-
-.nav {
-  justify-content: center;
-}
-
-.nav-link {
-  color: #00A144;
-  font-size: larger;
-}
-
-.nav-link:hover {
-  color: #02682c;
-}
-
-.nav-link:active{
-  color: white;
-  background-color: #00A144;
 }
 
 .jumbotron {
