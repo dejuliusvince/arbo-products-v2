@@ -162,7 +162,30 @@ h6 {
   opacity: 0.5;
 }
 
+.services-text {
+  text-align: center;
+  position: relative;
+ bottom: 50%;
+}
 
+.services-text h2 {
+  font-size: medium;
+  font-weight: bold;
+}
+
+.services-text p{
+  font-size: small;
+}
+
+.services-icon {
+  position: relative;
+  bottom: 53%;
+  left:33%;
+}
+
+.underline {
+  font-weight: bolder;
+}
 
 .btn:active {
   transform: scale(1.1);
